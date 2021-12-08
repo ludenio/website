@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <iframe id="main_iframe" src="https://ludenio.substack.com/embed" style="border:0px solid #EEE; background:transparent;" frameborder="0" scrolling="no"></iframe>
+
+  <script src="/js/jquery.js"></script>
+  <script type="text/javascript">
+  	$( document ).ready(function() {
+        console.log( "document loaded" );
+    });
+ 
+    $( window ).on( "load", function() {
+        console.log( "window loaded" );
+
+          let iframe = $('#main_iframe');
+  
+  //find button inside iframe
+  let button = iframe.contents().find('.subscribe-btn');
+  console.log(button);
+  //trigger button click
+  button.trigger("click");
+    });
+
+//   	$( document ).ready(function() {
+//     console.log( "ready!" );
+
+//     //find iframe
+
+// });
+
+
+  </script>
+</body>
+</html>

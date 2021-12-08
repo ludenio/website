@@ -1,0 +1,19 @@
+.navbar-nav{
+    float: none;
+    text-align: center;
+}
+
+@media(min-width:767px) {
+    /*.navbar {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }*/
+
+    .navbar-nav{
+        float:right;
+    }
+    .top-nav-collapse {
+        /*padding: 0;*/
+    }
+}
