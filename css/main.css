@@ -133,8 +133,7 @@ a.button { text-decoration: none; }
 
 .contacts { text-align: right; }
 
-@media (max-width: 530px) { .contact-section .col-xs-6 { width: 100%; }
-  .contacts { padding-top: 20px; text-align: left; } }
+@media (max-width: 530px) { .contact-section .col-xs-6 { width: 100%; } .contacts { padding-top: 20px; text-align: left; } }
 
 .footer { font-size: 14px; text-align: center; }
 
@@ -166,8 +165,6 @@ a.button { text-decoration: none; }
 .close:hover, .close:focus { color: #ffffff; text-decoration: none; cursor: pointer; }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) { .modal-content { width: 100%; }
-  #intro h1 { font-size: 32px; }
-  #intro h2 { font-size: 18px; } }
+@media only screen and (max-width: 700px) { .modal-content { width: 100%; } #intro h1 { font-size: 32px; } #intro h2 { font-size: 18px; } }
 
 /*# sourceMappingURL=main.css.map */
