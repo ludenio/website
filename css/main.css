@@ -85,6 +85,8 @@ a.button { text-decoration: none; }
 
 .lfedu-desc { background-color: #3a7d4f; }
 
+.craftomation-desc { background-color: #9c6e4a; }
+
 .wtl-desc { background-color: #221f29; }
 
 .rewire-desc { background-color: #5d7b8c; }
@@ -110,6 +112,8 @@ a.button { text-decoration: none; }
 .lf { background: url("../img/corp/lf.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
 
 .lfedu { background: url("../img/corp/lfedu.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+.craftomation { background: url("../img/corp/craftomation.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
 
 .wtl { background: url("../img/corp/wtl.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
 
