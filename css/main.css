@@ -38,7 +38,7 @@ hr { width: 10%; }
 
 .single-logo { margin-top: 20px; }
 
-.partner-logo { margin: 10px; max-height: 80px; max-width: 120px; opacity: 0.7; filter: alpha(opacity=50); /* For IE8 and earlier */ }
+.partner-logo { margin: 10px; max-height: 120px; max-width: 200px; opacity: 0.7; filter: alpha(opacity=50); /* For IE8 and earlier */ }
 
 .partner-logo:hover { opacity: 1; }
 
