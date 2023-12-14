@@ -3,3 +3,4 @@ Disallow: /js/
 Disallow: /jekyll/
 Disallow: /css/
 Disallow: /fonts/
+Disallow: /secret/
